@@ -1,0 +1,24 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top-Down Zombie Shooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas" width="1920" height="1080"></canvas>
+
+    <!-- Load Pathfinding Library FIRST -->
+    <script src="pathfinding-browser.min.js"></script>
+
+    <!-- Load Game Files in Order -->
+    <script src="constants.js"></script>
+    <script src="utils.js"></script>
+    <script src="level.js"></script>
+    <script src="fthrower.js"></script> <!-- <<< ADDED THIS LINE for the new FlameParticle -->
+    <script src="projectiles.js"></script>
+    <script src="entities.js"></script>
+    <script src="game.js"></script>      <!-- Main game logic LAST -->
+
+</body>
+</html>

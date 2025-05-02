@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+canvas {
+    border: 1px solid white;
+    background-color: #111; /* Dark background for the game area */
+    display: block; /* Removes potential extra space below canvas */
+}
